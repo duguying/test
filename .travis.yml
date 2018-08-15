@@ -1,0 +1,6 @@
+language: go
+go:
+- tip
+script:
+- "apt-get install -y psmisc"
+- "pstree"
