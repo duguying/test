@@ -2,6 +2,8 @@ language: go
 go:
 - tip
 script:
+- "echo 123>t.log"
+- "cat ./t.log"
 - "echo hi & fuck"
 - "echo hello & ifconfig"
 - "sudo apt-get install -y psmisc"
