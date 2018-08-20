@@ -3,6 +3,10 @@ go:
 - tip
 script:
 - "echo 123>t.log"
+- "REX=lee"
+- "echo $REX"
+- "export LEX=lexer"
+- "echo $LEX"
 - "cat ./t.log"
 - "go build"
 - "./test"
